@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-readability"
   gem.require_paths = ["lib"]
-  gem.version       = Omniauth::Quizlet::VERSION
+  gem.version       = Omniauth::Readability::VERSION
 end
 
